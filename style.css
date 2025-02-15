@@ -1,0 +1,8 @@
+.title {
+    font-size: 45px;
+    padding-top: 40px;
+    font-weight: bold;
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+}
