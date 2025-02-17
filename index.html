@@ -8,11 +8,25 @@
   </head>
   <body>
     <div class="title">숫자 맞추기 게임</div>
-    <div id="result-area">결과가 나온다</div>
     <div>
-      <input type="number" id="user-input" />
-      <button id="play-button">GO</button>
+      <img
+        class="result-img"
+        src="https://img.freepik.com/free-vector/cartoon-style-question-mark-symbol-background-why-who-query_1017-50433.jpg"
+      />
+      <div id="result-area"></div>
+      <div id="chance-area">남은 찬스: 3번</div>
+      <div id="history-area">내가 추측한 숫자들:</div>
     </div>
+    <div class="input-box">
+      <input
+        type="number"
+        id="user-input"
+        placeholder="1부터 100까지 숫자를 입력해주세요"
+      />
+      <button id="play-button">GO</button>
+      <button id="reset-button">Reset</button>
+    </div>
+    <div class="answer">정답:</div>
     <script src="main.js"></script>
   </body>
 </html>
